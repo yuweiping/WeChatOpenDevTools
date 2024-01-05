@@ -59,11 +59,7 @@ if __name__ == '__main__':
     session = frida.attach(pid)
     address = load_address_source(version,'x64')
     if address is not None:
-        with open('./address.js', 'r', encoding='utf-8') as file:
-            address_source = file.read()
-
-        # print(address_source)
-        script = session.create_script(address_source)
+        script = session.create_script(address)
         script.on('message', on_message)
         script.load()
         sys.stdin.read()
