@@ -9,7 +9,6 @@
 
 参考链接
 
-https://github.com/shuaibibobo/WeChatOpenDevTools
 
 https://github.com/x0tools/WeChatOpenDevTools
 
@@ -25,7 +24,5 @@ https://github.com/x0tools/WeChatOpenDevTools
 **注意只支持 Window 平台！！！！**
 
 注意本库只能作为学习用途, 造成的任何问题与本库开发者无关, 如侵犯到你的权益，请联系删除
-
-
 
 **需要提前运行微信.需要提前运行微信.需要提前运行微信**
